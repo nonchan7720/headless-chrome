@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - "main"
-      - "add_noto-cjk"
     paths:
       - "noto-cjk/Dockerfile"
       - "CHROME_VERSION"
