@@ -5,6 +5,7 @@ on:
     branches:
       - "main"
     paths:
+      - ".github/workflows/build.yaml"
       - "noto-cjk/Dockerfile"
       - "CHROME_VERSION"
 
