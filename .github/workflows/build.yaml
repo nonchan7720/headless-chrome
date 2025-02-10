@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           tags: ${{ env.DOCKER_IMAGE }}:${{ env.VERSION }}-noto-cjk
-          file: fonts/noto-cjk/Dockerfile
+          file: noto-cjk/Dockerfile
           cache-from: type=registry,ref=${{ env.DOCKER_IMAGE }}:buildcache
           cache-to: type=registry,ref=${{ env.DOCKER_IMAGE }}:buildcache
           outputs: type=registry
